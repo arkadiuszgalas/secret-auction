@@ -5,7 +5,8 @@ print("Welcome to the secret auction program.")
 while continue_bids:
    name_player = input("What is your name ?: ")
    bid = input("What's your bid ?: $")
-   bids_table[name_player] = int(bid)
+   bid_dec = round(float(bid),2)
+   bids_table[name_player] = bid_dec
    other = input("Are there any other bidders ? Type 'yes' or 'no' \n")
 
    if other == 'yes':
