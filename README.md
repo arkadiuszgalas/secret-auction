@@ -1,5 +1,8 @@
 # secret-auction
-Python project allowing to conduct secret auction. 
-Program asks user to enter name and value of bid. Then there is 
-question about other users of auction.
-As an output program prints auction winner's name and value of bid.
+Secret auction is application allowing conducting secret auctions.
+After the auction ends system automatically selects winner 
+and presents highest bid.
+
+# functionalities
+Submission of hidden bids by participants
+Automatic selection of the highest bid

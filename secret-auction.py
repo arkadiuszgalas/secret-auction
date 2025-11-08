@@ -1,7 +1,10 @@
+import art
 continue_bids = True
 
 bids_table = dict()
+print(art.logo)
 print("Welcome to the secret auction program.")
+
 while continue_bids:
    name_player = input("What is your name ?: ")
    bid = input("What's your bid ?: $")
