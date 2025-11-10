@@ -1,4 +1,5 @@
 import art
+
 continue_bids = True
 
 bids_table = dict()
@@ -13,7 +14,7 @@ while continue_bids:
    other = input("Are there any other bidders ? Type 'yes' or 'no' \n")
 
    if other == 'yes':
-      print("\n" * 30)
+      print("\n" * 100)
    else:
       continue_bids = False
 
@@ -24,5 +25,5 @@ for key in bids_table:
       max_bid = bids_table[key]
       winner_name = key
 
-print("\n" * 30)
+print("\n" * 100)
 print(f"The winner is {winner_name} with a bid of ${max_bid}.")
