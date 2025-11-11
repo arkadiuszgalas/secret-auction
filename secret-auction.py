@@ -26,4 +26,5 @@ for key in bids_table:
       winner_name = key
 
 print("\n" * 100)
-print(f"The winner is {winner_name} with a bid of ${max_bid}.")
+print(f"The winner is {winner_name} with a bid of:")
+print(f"${max_bid:.2f}")
